@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'registration', 
     #My Apps
     'newsletter',
+    'reviews', 
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', 'tgr.views.home', name="home"),
     url(r'^accounts/', include('registration.backends.default.urls')),
+    #url(r'^reviews/'), 
 ]
